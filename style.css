@@ -1,0 +1,118 @@
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#f8f8f8;
+}
+header{
+background:#7a1f1f;
+color:rgb(217, 11, 49);
+text-align:center;
+padding:20px;
+}
+nav{
+margin-top:15px;
+}
+nav a{
+color:orange;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+.hero{
+padding:80px;
+text-align:center;
+font-weight: bold;
+font-size: x-large;
+background-image: url("meat\ mbuzi.png");
+background-size:cover;
+background-repeat: no-repeat;
+color:rgba(230, 22, 22, 0.986);
+}
+.btn{
+background:rgb(224, 12, 12);
+padding:15px 30px;
+text-decoration:none;
+color:rgba(226, 230, 9, 0.911);
+border-radius:5px;
+font-weight:bold;
+}
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+padding:40px;
+}
+.card{
+background:rgb(231, 13, 13);
+color: white;
+margin:15px;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.2);
+text-align:center;
+}
+.content{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    color:red;
+    background-image: url(mbuzi\ meat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+padding:40px;
+text-align:center;
+}
+input,
+textarea{
+    color: red;
+width:80%;
+padding:12px;
+margin:10px;
+}
+button{
+background:#7a1f1f;
+color:orange;
+padding:12px 25px;
+border:red;
+cursor:pointer;
+}
+footer{
+background:#ed8a08;
+color:rgb(223, 13, 13);
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+.menu-card{
+    width:450px;
+    margin:20px auto;
+    background:#d9c56b;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 8px rgba(0,0,0,.2);
+}
+
+.menu-card a{
+    display:flex;
+    text-decoration:none;
+    color:black;
+    align-items:center;
+    padding:10px;
+}
+
+.menu-card img{
+    width:120px;
+    height:90px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-right:15px;
+}
+
+.menu-info h3{
+    margin:0;
+}
+
+.menu-info p{
+    margin:5px 0;
+}
